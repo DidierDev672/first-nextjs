@@ -1,9 +1,9 @@
 import AcmeLogo from "@/app/ui/acme-logo";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import styles from "@/app/ui/home.module.css";
-import { lusitana, quintessential } from "./ui/fonts";
+import { quintessential } from "./ui/fonts";
 import Image from "next/image";
+import "@radix-ui/themes/styles.css";
 
 export default function Page() {
   return (
